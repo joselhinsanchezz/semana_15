@@ -1,0 +1,72 @@
+.navbar {
+    background-color: grey;
+}
+.navba {
+    margin-left: none;
+    margin-right: none;
+}
+.nav-item .nav-link{
+    color: white;
+}
+.navbar-brand {
+    color: white;
+}
+
+/* Estilos personalizados */
+.carousel-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.carousel-border {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+}
+.search-result {
+    display: none;
+    list-style: none;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+/* Ajustes para dispositivos medianos y tablets */
+@media (max-width: 1034px) {
+    .navbar-toggler {
+        display: block; /* Asegura que el botón hamburguesa se muestre */
+    }
+    .collapse {
+        display: none; /* Oculta el menú desplegable inicialmente */
+    }
+    .navbar-collapse.show {
+        display: block; /* Muestra el menú cuando se despliega */
+    }
+    .nav-item {
+        padding-right: 10px;
+        padding-left: 0; /* Ajusta el espaciado en pantallas medianas */
+    }
+}
+
+.nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.navbar-brand {
+    margin-right: 20px; /* Espaciado entre la marca y los enlaces */
+}
+
+
+#accordionDesktop{
+    padding-top: 65px;
+}
